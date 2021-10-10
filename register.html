@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Registration Form | RadheKrishana</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    .container {
+        height: 85vh;
+        margin: auto;
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="tytle">
+            <center><b style="font-size:40px;">Registration</b></center>
+        </div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details"><b>Full Name</b></span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>UserName</b></span>
+                    <input type="text" placeholder="Enter your username" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Email</b></span>
+                    <input type="text" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Phone Number</b></span>
+                    <input type="text" placeholder="Enter your phone number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Password</b></span>
+                    <input type="text" placeholder="Enter your password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Confirm Password</b></span>
+                    <input type="text" placeholder="Enter your confirm password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"><b>Address</b></span>
+                    <input type="text" placeholder="Enter your address" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title"><b>Gender</b></span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender"><b>Male</b></span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender"><b>Female</b></span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender"><b>Other</b></span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
